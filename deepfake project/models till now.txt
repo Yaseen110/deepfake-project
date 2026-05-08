@@ -1,0 +1,24 @@
+	model name			code running 		model ran completely
+
+A. normal paradigm
+
+1.	resnet50			  yes				yes
+2. 	inceptionnetv3			  yes				yes
+3.	mobilenetv3			  yes				yes
+
+B. Vision transformers
+
+4.	vit				  yes				no
+5.	distilvit			  yes				no
+6.	crossefficientvit		  No				no
+
+C. Embeddings and classification
+
+7.	Facenet				  yes				no
+8.	Dlib				  yes				no
+9.	openface			  No				no
+10.	arcface				  No				no
+
+D. Model Pretrained on faces
+
+11.	vggface				  yes				yes
