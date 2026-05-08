@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+}
+
+.upload-box {
+    background: #1E1E1E;
+    border-radius: 10px;
+    max-width: 450px;
+    margin: auto;
+}
+
+h2 {
+    color: #FFD700;
+}
+
+.navbar-brand {
+    margin: auto;
+    font-size: 1.5rem;
+}
+
+.preview img {
+    max-height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.preview img:hover {
+    transform: scale(1.05);
+}
+
+.result-box {
+    background: #1E1E1E;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.result-box:hover {
+    transform: translateY(-5px);
+}
+
+.result-box img {
+    border-radius: 5px;
+}
+
+.animated {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.6s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+body {
+    background-color: #121212;
+    color: #fff;
+}
+
+.card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    color: #f8f9fa;
+}
+
+.table-dark th,
+.table-dark td {
+    background-color: #2a2a2a;
+    color: #fff;
+    border-color: #444;
+}
