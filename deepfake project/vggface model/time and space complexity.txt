@@ -1,0 +1,5 @@
+Total params: 14,980,418
+Trainable params: 14,979,394
+Non-trainable params: 1,024
+
+37684.6s
