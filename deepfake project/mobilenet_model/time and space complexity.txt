@@ -1,0 +1,6 @@
+time complexity : 8649.4s
+
+space complexity: 
+	1. Total params: 5,810,858
+	2. Trainable params: 5,785,898
+	3. Non-trainable params: 24,960
